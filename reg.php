@@ -9,7 +9,7 @@ $app = new \atk4\ui\App("andrej");
 $app->initLayout("Centered");
 
 $form = $app->layout->add('Form');
-$form->setModel(new User($db));
+$form->setModel(new User($db),['nickname','name','surname','email','password']);
 $form->buttonSave->set("Жми");
 $model = new User($db);
 
