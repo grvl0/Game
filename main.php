@@ -79,10 +79,3 @@ $slicer = $col_2->add(['View','template' => new \atk4\ui\Template('
 
 $exit = $app->add(['Button',"Exit","red"]);
 $exit->link(["exit"]);
-
-$x2 = $col_3->add(["Button","x2","inverted green"]);
-$pus = $col_3->add(["Button","не смеши мои тапки","inverted orange button"]);
-$cas = $col_3->add(["Button","mission pased","inverted blue"]);
-$gg = $col_3->add(["Button","aaaaaaaaa","inverted red"]);
-$jg = $col_3->add(["Button","x10000000","inverted yellow"]);
-$jg = $col_3->add(["Button","Я пыль","inverted primary"]);
